@@ -1,0 +1,6 @@
+{
+  "name": "Rakesh & Shivani Engagement Invitation",
+  "description": "Interactive luxury wedding engagement invitation with smooth scratch-to-reveal golden heart, live countdown, venue directions, and music.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

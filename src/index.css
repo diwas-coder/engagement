@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --wine: #25030a;
+    --burgundy: #4c0715;
+    --maroon: #720f25;
+    --gold: #d7a94b;
+    --gold2: #f4d48a;
+    --cream: #fff8ec;
+    --rose: #b85d70;
+    --text: #f9ecd3;
+    --muted: #d9c4a7;
+    --line: rgba(230, 190, 101, 0.38);
+    --shadow: 0 20px 70px rgba(0, 0, 0, 0.38);
+  }
+
+  body {
+    background-color: #160107;
+    color: var(--text);
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.font-cursive {
+  font-family: 'Great Vibes', cursive;
+}
+
+.font-serif {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+@keyframes fall {
+  0% { opacity: 0; transform: translate3d(0, -30px, 0) rotate(0deg); }
+  12% { opacity: 1; }
+  50% { transform: translate3d(40px, 230px, 0) rotate(180deg); }
+  100% { opacity: 0; transform: translate3d(-25px, 550px, 0) rotate(420deg); }
+}
+
+@keyframes petalFall {
+  0% { opacity: 0; transform: translateY(-30px) rotate(0deg); }
+  12% { opacity: 0.8; }
+  100% { opacity: 0; transform: translateY(115vh) translateX(100px) rotate(500deg); }
+}
+
+@keyframes float {
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes sway {
+  0%, 100% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+}
+
+@keyframes spinSlow {
+  to { transform: rotate(360deg); }
+}
+
+.animate-fall {
+  animation: fall var(--t, 5s) ease-in var(--d, 0s) forwards;
+}
+
+.animate-float {
+  animation: float 2.4s ease-in-out infinite;
+}
+
+.animate-sway {
+  animation: sway 4s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 3s linear infinite;
+}
+
