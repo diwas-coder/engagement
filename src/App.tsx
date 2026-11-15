@@ -369,7 +369,7 @@ export default function App() {
             <div className="p-6 rounded-xl border border-[#e6be65]/35 bg-gradient-to-br from-white/[0.05] to-white/[0.01] backdrop-blur-sm">
               <Clock className="w-7 h-7 text-[#f4d48a] mx-auto mb-3" />
               <p className="text-[9px] font-sans tracking-[0.2em] text-[#bca98f] uppercase">Time</p>
-              <p className="text-2xl font-serif text-[#f4d48a] font-semibold mt-1">07:00 PM Onwards</p>
+              <p className="text-2xl font-serif text-[#f4d48a] font-semibold mt-1">07:00 AM Onwards</p>
             </div>
 
             <div className="p-6 rounded-xl border border-[#e6be65]/35 bg-gradient-to-br from-white/[0.05] to-white/[0.01] backdrop-blur-sm">
@@ -450,27 +450,27 @@ export default function App() {
           <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-5 gap-4">
             <div className="p-4 border-b sm:border-b-0 sm:border-r border-[#d7a94b]/20">
               <Sun className="w-6 h-6 text-[#f4d48a] mx-auto mb-2" />
-              <p className="text-xl font-serif font-semibold text-[#f4d48a]">07:00 PM</p>
+              <p className="text-xl font-serif font-semibold text-[#f4d48a]">07:00 AM</p>
               <p className="text-[10px] font-sans tracking-wider text-[#dbc8a9] uppercase mt-1">WELCOME</p>
             </div>
             <div className="p-4 border-b sm:border-b-0 sm:border-r border-[#d7a94b]/20">
               <Camera className="w-6 h-6 text-[#f4d48a] mx-auto mb-2" />
-              <p className="text-xl font-serif font-semibold text-[#f4d48a]">07:30 PM</p>
+              <p className="text-xl font-serif font-semibold text-[#f4d48a]">07:30 AM</p>
               <p className="text-[10px] font-sans tracking-wider text-[#dbc8a9] uppercase mt-1">PHOTO SESSION</p>
             </div>
             <div className="p-4 border-b sm:border-b-0 sm:border-r border-[#d7a94b]/20">
               <PartyPopper className="w-6 h-6 text-[#f4d48a] mx-auto mb-2" />
-              <p className="text-xl font-serif font-semibold text-[#f4d48a]">08:00 PM</p>
+              <p className="text-xl font-serif font-semibold text-[#f4d48a]">08:00 AM</p>
               <p className="text-[10px] font-sans tracking-wider text-[#dbc8a9] uppercase mt-1">ENGAGEMENT</p>
             </div>
             <div className="p-4 border-b sm:border-b-0 sm:border-r border-[#d7a94b]/20">
               <Utensils className="w-6 h-6 text-[#f4d48a] mx-auto mb-2" />
-              <p className="text-xl font-serif font-semibold text-[#f4d48a]">09:00 PM</p>
+              <p className="text-xl font-serif font-semibold text-[#f4d48a]">09:00 AM</p>
               <p className="text-[10px] font-sans tracking-wider text-[#dbc8a9] uppercase mt-1">DINNER</p>
             </div>
             <div className="p-4">
               <Music className="w-6 h-6 text-[#f4d48a] mx-auto mb-2" />
-              <p className="text-xl font-serif font-semibold text-[#f4d48a]">10:00 PM</p>
+              <p className="text-xl font-serif font-semibold text-[#f4d48a]">10:00 AM</p>
               <p className="text-[10px] font-sans tracking-wider text-[#dbc8a9] uppercase mt-1">CELEBRATION</p>
             </div>
           </div>
