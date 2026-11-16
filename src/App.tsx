@@ -444,13 +444,13 @@ export default function App() {
         <section className="relative py-20 px-4 sm:px-8 text-center border-b border-[#d7a94b]/15">
           <div className="text-[#f4d48a] text-lg tracking-[0.5em] mb-2">❧ ✦ ❧</div>
           <h2 className="text-4xl sm:text-6xl font-cursive text-[#f4d48a] mb-10">
-            Evening Schedule
+            Morning Schedule
           </h2>
 
           <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-5 gap-4">
             <div className="p-4 border-b sm:border-b-0 sm:border-r border-[#d7a94b]/20">
               <Sun className="w-6 h-6 text-[#f4d48a] mx-auto mb-2" />
-              <p className="text-xl font-serif font-semibold text-[#f4d48a]">07:00 AM</p>
+              <p className="text-xl font-serif font-semibold text-[#f4d48a]">10:00 AM</p>
               <p className="text-[10px] font-sans tracking-wider text-[#dbc8a9] uppercase mt-1">WELCOME</p>
             </div>
             <div className="p-4 border-b sm:border-b-0 sm:border-r border-[#d7a94b]/20">
@@ -460,7 +460,7 @@ export default function App() {
             </div>
             <div className="p-4 border-b sm:border-b-0 sm:border-r border-[#d7a94b]/20">
               <PartyPopper className="w-6 h-6 text-[#f4d48a] mx-auto mb-2" />
-              <p className="text-xl font-serif font-semibold text-[#f4d48a]">12:00 AM</p>
+              <p className="text-xl font-serif font-semibold text-[#f4d48a]">12:00 PM</p>
               <p className="text-[10px] font-sans tracking-wider text-[#dbc8a9] uppercase mt-1">ENGAGEMENT</p>
             </div>
             <div className="p-4 border-b sm:border-b-0 sm:border-r border-[#d7a94b]/20">
@@ -470,7 +470,7 @@ export default function App() {
             </div>
             <div className="p-4">
               <Music className="w-6 h-6 text-[#f4d48a] mx-auto mb-2" />
-              <p className="text-xl font-serif font-semibold text-[#f4d48a]">10:00 AM</p>
+              <p className="text-xl font-serif font-semibold text-[#f4d48a]">02:00 PM</p>
               <p className="text-[10px] font-sans tracking-wider text-[#dbc8a9] uppercase mt-1">CELEBRATION</p>
             </div>
           </div>
