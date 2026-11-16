@@ -466,7 +466,7 @@ export default function App() {
             <div className="p-4 border-b sm:border-b-0 sm:border-r border-[#d7a94b]/20">
               <Utensils className="w-6 h-6 text-[#f4d48a] mx-auto mb-2" />
               <p className="text-xl font-serif font-semibold text-[#f4d48a]">01:00 PM</p>
-              <p className="text-[10px] font-sans tracking-wider text-[#dbc8a9] uppercase mt-1">DINNER</p>
+              <p className="text-[10px] font-sans tracking-wider text-[#dbc8a9] uppercase mt-1">LUNCH</p>
             </div>
             <div className="p-4">
               <Music className="w-6 h-6 text-[#f4d48a] mx-auto mb-2" />
