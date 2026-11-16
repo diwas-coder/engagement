@@ -253,7 +253,7 @@ export default function App() {
             <div className="w-48 sm:w-80 h-[1px] bg-gradient-to-r from-transparent via-[#d7a94b] to-transparent mx-auto my-6" />
 
             <p className="text-[10px] sm:text-xs font-sans tracking-[0.25em] text-[#d9c4a7] uppercase pt-2">
-              FRIDAY · 20 NOVEMBER 2026 · 07:00 AM ONWARDS
+              FRIDAY · 20 NOVEMBER 2026 · 11:00 AM ONWARDS
             </p>
 
             <div className="pt-10 flex flex-col items-center">
