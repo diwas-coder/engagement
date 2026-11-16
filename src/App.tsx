@@ -294,7 +294,7 @@ export default function App() {
           <div className="relative w-full max-w-[620px] mx-auto aspect-[4/3] p-3 rounded-2xl bg-gradient-to-br from-[#8b5a18] via-[#f0ca75] to-[#71450d] shadow-[0_25px_65px_rgba(0,0,0,0.5)]">
             <div className="w-full h-full rounded-xl overflow-hidden bg-gradient-to-br from-[#4b0a16] to-[#1d0208] flex items-center justify-center text-center p-6 border border-[#d7a94b]/30">
               <img
-                src="/images/couple.jpeg"
+                src="/images/Couple1.jpeg"
                 alt="Rakesh Sahani & Shivani Sahani"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover rounded-lg hidden"
